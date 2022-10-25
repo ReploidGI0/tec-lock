@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Seguridad Smartphones</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="">
+  <link rel="stylesheet" href="public/styles/styles.css">
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+
+<body style="background-color: #f5f7f9;">
+
+  <!--Barra de navegacion-->
+  <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #294471;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Tec-Lock</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="estadisticas.html">Estadísticas</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="metodosbloqueo.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Métodos de Bloqueo
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: #677691;">
+              <li><a class="dropdown-item" href="pin.html" style="color: rgb(153, 145, 145);">PIN</a></li>
+              <li><a class="dropdown-item" href="patron.html" style="color: rgb(153, 145, 145);">Patrón</a></li>
+              <li><a class="dropdown-item" href="contra.html" style="color: rgb(153, 145, 145);">Contraseña</a></li>
+              <li><a class="dropdown-item" href="huella.html" style="color: rgb(153, 145, 145);">Huella Dactilar</a></li>
+              <li><a class="dropdown-item" href="facial.html" style="color: rgb(153, 145, 145);">Face-ID</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="acercade.html">Acerca De Nosotros</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav><br>
+
+<!--Contenido-->
+<div class="container" style="text-align: justify;">
+  La tecnología que activa Face ID incorpora el hardware y el software más
+  avanzados que hayamos creado hasta ahora. La cámara TrueDepth captura datos
+  faciales precisos proyectando y analizando miles de puntos invisibles para crear un
+  mapa de profundidad de la cara; además, captura una imagen infrarroja de esta.
+  Una sección del Neural Engine del chip A11, A12 Bionic, A12X Bionic y A13 Bionic,
+  A14 Bionic y A15 Bionic (protegido dentro de Secure Enclave) transforma el mapa
+  de profundidad y la imagen infrarroja en una representación matemática que luego
+  compara con los datos faciales registrados.
+
+  Face ID se adapta de forma automática a los cambios que se produzcan en tu
+  apariencia; por ejemplo, detecta el uso de maquillaje o el crecimiento de vello facial.
+  Si se detecta un cambio más significativo (por ejemplo, si te afeitas la barba por
+  completo), Face ID confirma tu identidad con tu código antes de actualizar los datos
+  faciales. La función Face ID está diseñada para que pueda reconocer sombreros,
+  bufandas, anteojos, lentes de contacto y una variedad de anteojos de sol. Asimismo,
+  está diseñada para funcionar en interiores, en exteriores e incluso en la oscuridad
+  total.<br><br>
+  
+  <h2>En qué consiste</h2>
+  Este método lo que hace es tomar fotografías de nuestra cara en diferentes ángulos,
+  con las fotografías y la Inteligencia Artificial(IA) toma varios puntos de de referencia
+  de nuestro rostro, esto lo hace para que cuando pones el rostro frente al
+  smartphone este rápidamente hace una comparación de la imagen actual con la
+  imagen que ya tiene registrada, para asi poder darnos acceso a nuestro
+  smartphone.<i>(Apple. (2022, 4 mayo). Acerca de la tecnología avanzada de Face ID. Apple Support.
+    Recuperado 17 de octubre de 2022, de https://support.apple.com/es-us/HT208108)</i><br><br>
+  
+  <h2>Como se configura</h2>
+  Estos ajustes se tomaron de un Iphone XR
+  Ajustes > Pantalla de bloqueo > Tipo de bloqueo de pantalla > Seleccionamos
+  “Face ID” > Leer las instrucciones y recomendaciones que nos brinda el
+  sistema > Colocamos la cámara frente a nuestra cara > Movemos la cara hacia
+  diferentes posiciones para registrar varias imagenes > damos clic en registrar
+  PIN para cuando Face ID no esté disponible > Registramos un PIN como
+  segundo método de bloqueo > Confirmamos el PIN > Damos clic en terminar. <br><br>
+  
+  <b>Ventajas</b>
+  <ul class="list-group">
+    <li class="list-group-item">Solo debemos de mirar hacia la cámara para que se desbloquee</li>
+    <li class="list-group-item">No tenemos que interactuar tanto con el smartphone</li>
+  </ul><br>
+  
+  <b>Desventajas</b>
+  <ul class="list-group">
+    <li class="list-group-item">En algunos smartphones se puede usar una foto para desbloquear</li>
+    <li class="list-group-item">En la oscuridad puede que no funcione o no funcione correctamente</li>
+    <li class="list-group-item">Si presentas algun cambio fisico (crecimiento de vello facial) puede que no te
+    reconozca</li>
+  </ul>
+</div>
+
+<!--Footer/Pie de Pagina-->
+<div class="container">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item">
+        <a href="index.html" class="nav-link px-2 text-muted">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a href="estadisticas.html" class="nav-link px-2 text-muted">Estadísticas</a>
+      </li>
+      <li class="nav-item">
+        <a href="metodosbloqueo.html" class="nav-link px-2 text-muted">Métodos De Bloqueo</a>
+      </li>
+      <li class="nav-item">
+        <a href="acercade.html" class="nav-link px-2 text-muted">Acerca de Nosotros</a>
+      </li>
+    </ul>
+    <p class="text-center text-muted">© 2022 Tec-Lock Inc</p>
+  </footer>
+</div>
+
+</body>
+</html>

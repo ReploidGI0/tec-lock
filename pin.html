@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Seguridad Smartphones</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="">
+  <link rel="stylesheet" href="public/styles/styles.css">
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+
+<body style="background-color: #f5f7f9;">
+
+  <!--Barra de navegacion-->
+  <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #294471;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Tec-Lock</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="estadisticas.html">Estadísticas</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="metodosbloqueo.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Métodos de Bloqueo
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: #677691;">
+              <li><a class="dropdown-item" href="pin.html" style="color: rgb(153, 145, 145);">PIN</a></li>
+              <li><a class="dropdown-item" href="patron.html" style="color: rgb(153, 145, 145);">Patrón</a></li>
+              <li><a class="dropdown-item" href="contra.html" style="color: rgb(153, 145, 145);">Contraseña</a></li>
+              <li><a class="dropdown-item" href="huella.html" style="color: rgb(153, 145, 145);">Huella Dactilar</a></li>
+              <li><a class="dropdown-item" href="facial.html" style="color: rgb(153, 145, 145);">Face-ID</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="acercade.html">Acerca De Nosotros</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav><br>
+
+<!--Contenido-->
+<div class="container" style="text-align:justify">
+  <p>
+    El código PIN, un método que consiste en un código numérico de 4 a 17 dígitos que
+    al ser introducido nos permitirá desbloquear el smartphone. Al configurar un PIN,
+    también puedes configurar el dispositivo para que te pida que introduzcas el PIN
+    después de que el dispositivo se bloquee. Esto evitará que el dispositivo se
+    desbloquee después de estar inactivo sin introducir primero el PIN.<br><br>
+  
+    <h2>En qué consiste</h2>
+    Este método consiste en realizar una cadena de al menos 4 o 6 dígitos de nuestra
+    elección en el orden que el usuario quiera, sin embargo esta clave no se nos debe
+    de olvidar ya que se nos solicitará cada vez que se apague la pantalla del
+    dispositivo.<br><br>
+  
+    <h2>Como se configura</h2>
+    Estos ajustes se tomaron de un Samsung A32
+    Ajustes > Pantalla de bloqueo > Tipo de bloqueo de pantalla > Seleccionamos
+    “PIN” > Ingresamos el PIN > Nuevamente se ingresa el PIN para confirmar >
+    Damos clic en guardar.<br><br>
+  
+    <b>Ventajas</b>
+    <ul class="list-group">
+      <li class="list-group-item">Es práctico de utilizar</li>
+      <li class="list-group-item">Una buena secuencia de números es difícil de descifrar</li>
+    </ul>
+    <b>Desventajas</b>
+    <ul class="list-group">
+      <li class="list-group-item">Se puede descifrar la contraseña fácilmente si es un código muy sencillo
+      como 1234, fechas de cumpleaños, etc</li>
+    </ul>
+    
+  </p>
+</div>
+
+<!--Footer/Pie de Pagina-->
+<div class="container">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item">
+        <a href="index.html" class="nav-link px-2 text-muted">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a href="estadisticas.html" class="nav-link px-2 text-muted">Estadísticas</a>
+      </li>
+      <li class="nav-item">
+        <a href="metodosbloqueo.html" class="nav-link px-2 text-muted">Métodos De Bloqueo</a>
+      </li>
+      <li class="nav-item">
+        <a href="acercade.html" class="nav-link px-2 text-muted">Acerca de Nosotros</a>
+      </li>
+    </ul>
+    <p class="text-center text-muted">© 2022 Tec-Lock Inc</p>
+  </footer>
+</div>
+
+</body>
+</html>

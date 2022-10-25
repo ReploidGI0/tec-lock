@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Seguridad Smartphones</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="">
+  <link rel="stylesheet" href="public/styles/styles.css">
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+
+<body style="background-color: #f5f7f9;">
+
+  <!--Barra de navegacion-->
+  <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #294471;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Tec-Lock</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="estadisticas.html">Estadísticas</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="metodosbloqueo.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Métodos de Bloqueo
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: #677691;">
+              <li><a class="dropdown-item" href="pin.html" style="color: rgb(153, 145, 145);">PIN</a></li>
+              <li><a class="dropdown-item" href="patron.html" style="color: rgb(153, 145, 145);">Patrón</a></li>
+              <li><a class="dropdown-item" href="contra.html" style="color: rgb(153, 145, 145);">Contraseña</a></li>
+              <li><a class="dropdown-item" href="huella.html" style="color: rgb(153, 145, 145);">Huella Dactilar</a></li>
+              <li><a class="dropdown-item" href="facial.html" style="color: rgb(153, 145, 145);">Face-ID</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="acercade.html">Acerca De Nosotros</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav><br>
+
+<!--Contenido-->
+<div class="container" style="text-align:justify">
+  Sin duda, este tipo de sistema es el más seguro de todos. Con él, nos podemos
+  asegurar de que solo somos nosotros quien tiene acceso al teléfono. Por desgracia,
+  es una característica exclusiva de teléfonos que tienen este tipo de sensor, futuro
+  estándar que aún no ha terminado de asentarse. Podremos acceder a esta función
+  dependiendo de la capa del fabricante, pero por lo general, de la misma forma que
+  con los otros métodos de desbloqueo. <br><br>
+  
+  <h2>En qué consiste</h2>
+  Este método consiste en hacer varios registros de nuestras huellas, estos registros
+  son de distintos ángulos de nuestro dedo o registrar varias huellas (los distintos
+  dedos) para tener más formas de desbloquear el smartphone.<br><br>
+
+  <h2>Como se configura</h2>
+  Estos ajustes se tomaron de un Samsung A32
+  Ajustes > Pantalla de bloqueo > Tipo de bloqueo de pantalla > Seleccionamos
+  “Huella” > Leer las instrucciones y recomendaciones que nos brinda el
+  sistema > Colocamos el dedo del cual queremos guardar el registro >
+  Colocamos el dedo en diferentes posiciones hasta completar el registro >
+  damos clic en registrar PIN > Registramos un PIN como segundo método de
+  bloqueo > Confirmamos el PIN > Damos clic en terminar.<br><br>
+  
+  <b>Ventajas</b>
+  <ul class="list-group">
+    <li class="list-group-item">Es un método rápido por el cual puedes desbloquear el smartphone</li>
+    <li class="list-group-item">Puedes agregar varias huellas</li>
+    <li class="list-group-item">No es necesario recordar contraseñas, patrones o PIN para desbloquear</li>
+  </ul>
+
+  <b>Desventajas</b>
+  <ul class="list-group">
+    <li class="list-group-item">Si solo se registra una huella y esta misma recibe algún daño (un raspon, una
+    cortada, etc.) no se podrá desbloquear mediante este método</li>
+    <li class="list-group-item">Si no se coloca bien la huella este la detectara como erronea</li>
+  </ul>
+</div>
+
+<!--Footer/Pie de Pagina-->
+<div class="container">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item">
+        <a href="index.html" class="nav-link px-2 text-muted">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a href="estadisticas.html" class="nav-link px-2 text-muted">Estadísticas</a>
+      </li>
+      <li class="nav-item">
+        <a href="metodosbloqueo.html" class="nav-link px-2 text-muted">Métodos De Bloqueo</a>
+      </li>
+      <li class="nav-item">
+        <a href="acercade.html" class="nav-link px-2 text-muted">Acerca de Nosotros</a>
+      </li>
+    </ul>
+    <p class="text-center text-muted">© 2022 Tec-Lock Inc</p>
+  </footer>
+</div>
+
+</body>
+</html>
